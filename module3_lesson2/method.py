@@ -1,18 +1,22 @@
 #methods for Car class
-class Car ():
-    def __init__(self, speed = "60km_per_hour", travel = "Abuja", feul = "10_litres", charge = "phone", park = "car_park"):
+class Car():
+    def Car(self, speed, travel, charge, park, feul):
        self.speed = speed
        self.travel = travel
-       self.feul = feul
        self.charge = charge
        self.park = park
+       self.feul = feul
        
-       
-       
-       print("self.speed:" , speed)
-       print("self.travel:", travel)
-       print("self.feul:", feul)
-       print("self.charge:", charge)
-       print("self.park:", park)
-       
-       Car()        
+       print(self.speed)
+       print(self.travel)
+       print(self.charge)
+       print(self.park)
+       print(self.feul)
+#create Method for car class
+
+Benz = Car (speed = 60, travel = 'Abuja', charge = 'phone', park = 'car_park', feul= 10)
+
+    
+      
+      
+      
